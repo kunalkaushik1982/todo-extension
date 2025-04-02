@@ -3,9 +3,19 @@
     "name": "React To-Do Extension",
     "version": "1.0",
     "description": "A simple To-Do extension built with React",
+    "icons": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+      },
     "action": {
-      "default_popup": "index.html"
+      "default_popup": "index.html",
+      "default_icon": {
+            "16": "icon-16.png",
+            "48": "icon-48.png",
+            "128": "icon-128.png"
+        }
     },
-    "permissions": ["storage"]
+    "permissions": ["storage","notifications"]
   }
   
