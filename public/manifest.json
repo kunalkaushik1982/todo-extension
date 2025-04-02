@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "React To-Do Extension",
+    "version": "1.0",
+    "description": "A simple To-Do extension built with React",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "permissions": ["storage"]
+  }
+  
